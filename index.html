@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cumpleaños perro higuera</title>
+  </head>
+  <body>
+    <div class="question-block">
+      <span class="index-number">1</span>
+      <div class="text">
+        ¿En qué juego de 1992 se popularizó la combinación de teclas
+        "↑↑↓↓←→←→BA"?
+      </div>
+    </div>
+
+    <ul class="options-list">
+      <li class="option-item">
+        <label for="option-a-q1" class="option-label">
+          <input type="radio" id="option-a-q1" name="q1" class="option-input" />
+          a) Mortal Kombat
+        </label>
+      </li>
+      <li class="option-item">
+        <label for="option-b-q1" class="option-label">
+          <input type="radio" id="option-b-q1" name="q1" class="option-input" />
+          b) Contra
+        </label>
+      </li>
+      <li class="option-item">
+        <label for="option-c-q1" class="option-label">
+          <input type="radio" id="option-c-q1" name="q1" class="option-input" />
+          c) Street Fighter II
+        </label>
+      </li>
+      <li class="option-item">
+        <label for="option-d-q1" class="option-label">
+          <input type="radio" id="option-d-q1" name="q1" class="option-input" />
+          d) Mega Man
+        </label>
+      </li>
+    </ul>
+
+    <div class="question-block">
+      <span class="index-number">2</span>
+      <div class="text">
+        ¿En qué año fue lanzado el juego "The Legend of Zelda" para la consola
+        NES?
+      </div>
+    </div>
+
+    <ul class="options-list">
+      <li class="option-item">
+        <label for="option-a-q2" class="option-label">
+          <input type="radio" id="option-a-q2" name="q2" class="option-input" />
+          a) 1983
+        </label>
+      </li>
+      <li class="option-item">
+        <label for="option-b-q2" class="option-label">
+          <input type="radio" id="option-b-q2" name="q2" class="option-input" />
+          b) 1985
+        </label>
+      </li>
+      <li class="option-item">
+        <label for="option-c-q2" class="option-label">
+          <input type="radio" id="option-c-q2" name="q2" class="option-input" />
+
+          c) 1986
+        </label>
+      </li>
+      <li class="option-item">
+        <label for="option-d-q2" class="option-label">
+          <input type="radio" id="option-d-q2" name="q2" class="option-input" />
+          d) 1988
+        </label>
+      </li>
+    </ul>
+
+    <div class="question-block">
+      <span class="index-number">3</span>
+      <div class="text">
+        ¿Cuál es el verdadero nombre del protagonista de la serie de anime y
+        manga "Kinnikuman"?
+      </div>
+    </div>
+    <ul class="options-list">
+      <li class="option-item">
+        <label for="option-a-q3" class="option-label">
+          <input type="radio" id="option-a-q3" name="q3" class="option-input" />
+          a) Suguru Kinniku
+        </label>
+      </li>
+      <li class="option-item">
+        <label for="option-b-q3" class="option-label">
+          <input type="radio" id="option-b-q3" name="q3" class="option-input" />
+          b) Terryman
+        </label>
+      </li>
+      <li class="option-item">
+        <label for="option-c-q3" class="option-label">
+          <input type="radio" id="option-c-q3" name="q3" class="option-input" />
+          c) Ramenman
+        </label>
+      </li>
+      <li class="option-item">
+        <label for="option-d-q3" class="option-label">
+          <input type="radio" id="option-d-q3" name="q3" class="option-input" />
+          d) Kinnikuman Great
+        </label>
+      </li>
+    </ul>
+
+    <div class="question-block">
+      <span class="index-number">4</span>
+      <div class="text">
+        En el juego "Mega Man 3", ¿qué nombre se le da a la habilidad especial
+        que Mega Man obtiene al derrotar al Robot Master "Shadow Man"?
+      </div>
+    </div>
+
+    <ul class="options-list">
+      <li class="option-item">
+        <label for="option-a-q4" class="option-label">
+          <input type="radio" id="option-a-q4" name="q4" class="option-input" />
+          a) Shadow Blade
+        </label>
+      </li>
+      <li class="option-item">
+        <label for="option-b-q4" class="option-label">
+          <input type="radio" id="option-b-q4" name="q4" class="option-input" />
+          b) Shadow Star
+        </label>
+      </li>
+      <li class="option-item">
+        <label for="option-c-q4" class="option-label">
+          <input type="radio" id="option-c-q4" name="q4" class="option-input" />
+          c) Shadow Clone
+        </label>
+      </li>
+      <li class="option-item">
+        <label for="option-d-q4" class="option-label">
+          <input type="radio" id="option-d-q4" name="q4" class="option-input" />
+          d) Shadow Strike
+        </label>
+      </li>
+    </ul>
+
+    <button id="openDialogBtn" class="btn">Enviar</button>
+
+    <dialog id="message">
+      <div class="wrapper">
+        <h3>
+          Feliz cumpleaños Perro Higuera te desea la CCM y todo el laboratorio
+          de educación.
+        </h3>
+        <p>Hoy las cápsulas de observación estarán más crujientes.</p>
+        <img src="dog.jfif" alt="" />
+        <button id="closeDialogBtn" class="btn">Cerrar</button>
+      </div>
+    </dialog>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script>
+    const dialog = document.getElementById("message");
+    const openBtn = document.getElementById("openDialogBtn");
+    const closeBtn = document.getElementById("closeDialogBtn");
+
+    openBtn.addEventListener("click", function () {
+      dialog.showModal();
+      var duration = 15 * 1000;
+      var animationEnd = Date.now() + duration;
+      var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+
+      function randomInRange(min, max) {
+        return Math.random() * (max - min) + min;
+      }
+
+      var interval = setInterval(function () {
+        var timeLeft = animationEnd - Date.now();
+
+        if (timeLeft <= 0) {
+          return clearInterval(interval);
+        }
+
+        var particleCount = 50 * (timeLeft / duration);
+        // since particles fall down, start a bit higher than random
+        confetti({
+          ...defaults,
+          particleCount,
+          origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 },
+        });
+        confetti({
+          ...defaults,
+          particleCount,
+          origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 },
+        });
+      }, 250);
+    });
+
+    closeBtn.addEventListener("click", function () {
+      dialog.close();
+    });
+  </script>
+</html>
